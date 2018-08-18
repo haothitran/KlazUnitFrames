@@ -1,8 +1,12 @@
-# KlazRaidFrames
+# KlazUnitFrames
 
-A World of Warcraft add-on that allows scaling of the default Blizzard raid frames beyond default range extremes. Make default raid frames much smaller or larger.
+A World of Warcraft add-on that adjusts the default Blizzard unit frames.
 
 There are no in-game options.
+
+## Features
+
+- Scale default raid frames beyond default range extremes.
 
 ## Installation
 

@@ -1,6 +1,0 @@
-## Interface: 80000
-## Title: Klaz|cff1994ffRaidFrames|r
-## Author: Klaz
-## Notes: Scale default Blizzard raid frames beyond default range extremes.
-
-RaidFrames.lua
