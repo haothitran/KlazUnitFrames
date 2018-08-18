@@ -6,6 +6,9 @@ There are no in-game options.
 
 ## Features
 
+- Class coloured health status bars.
+- Class portraits.
+- Hide various repetitive indicators on unit frames.
 - Scale default raid frames beyond default range extremes.
 
 ## Installation

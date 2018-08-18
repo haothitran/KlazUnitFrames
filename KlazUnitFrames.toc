@@ -1,6 +1,9 @@
 ## Interface: 80000
-## Title: Klaz|cff1994ffRaidFrames|r
+## Title: Klaz|cff1994ffUnitFrames|r
 ## Author: Klaz
 ## Notes: Adjusts the default Blizzard unit frames.
 
-Raid.lua
+Modules\ClassHealth.lua
+Modules\ClassPortrait.lua
+Modules\Raid.lua
+Modules\Unit.lua
