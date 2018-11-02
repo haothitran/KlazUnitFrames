@@ -52,6 +52,6 @@ hooksecurefunc("UnitFrameManaBar_UpdateType", function(self)
 
   -- change mana colour to lighter blue
   if powerType == 0 then
-      self:SetStatusBarColor(0, .5, 1)
+    self:SetStatusBarColor(0, .5, 1)
   end
 end)
