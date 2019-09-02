@@ -8,9 +8,9 @@ There are no in-game options.
 
 - Class coloured health status bars.
 - Class portraits.
-- Hide various repetitive indicators on unit frames.
-- Darken default Blizzard unit frame textures.
-- Scale default raid frames beyond default range extremes.
+- Hide various indicators on unit frames.
+- Increase scale of boss frames.
+- Add timer for player and target cast bars.
 
 ## Installation
 

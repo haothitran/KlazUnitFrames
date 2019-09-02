@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
--- // CLASS HEALTH
+-- // MODULES / CLASS HEALTH
 --------------------------------------------------------------------------------
 
-local function classHealth(self)
+local function ClassHealth(self)
   if UnitIsPlayer(self.unit) then
     local class = RAID_CLASS_COLORS[select(2, UnitClass(self.unit))]
     if class then
@@ -11,5 +11,5 @@ local function classHealth(self)
   end
 end
 
-hooksecurefunc("UnitFrameHealthBar_Update", classHealth)
-hooksecurefunc("HealthBar_OnValueChanged", classHealth)
+hooksecurefunc('UnitFrameHealthBar_Update', ClassHealth)
+hooksecurefunc('HealthBar_OnValueChanged', ClassHealth)
