@@ -6,11 +6,12 @@ There are no in-game options.
 
 ## Features
 
+- Hide various indicators on unit frames.
 - Class coloured health status bars.
 - Class portraits.
-- Hide various indicators on unit frames.
-- Increase scale of boss frames.
+- Flat textures for status bars.
 - Add timer for player and target cast bars.
+- Increase scale of boss frames.
 
 ## Installation
 
