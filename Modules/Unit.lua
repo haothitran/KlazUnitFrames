@@ -37,27 +37,20 @@ end)
 --------------------------------------------------------------------------------
 
 hooksecurefunc('PlayerFrame_ToPlayerArt', function(self)
-  self.healthbar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  --self.healthbar.AnimatedLossBar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  --PlayerFrameMyHealPredictionBar:SetTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  --PlayerFrameAlternateManaBar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  --PlayerFrameManaBar.FeedbackFrame.BarTexture:SetTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  --PlayerFrameManaBar.FeedbackFrame.LossGlowTexture:SetTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  --PlayerFrameManaBar.FeedbackFrame.GainGlowTexture:SetTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  PetFrameHealthBar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  PetFrameManaBar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
+  self.healthbar:SetStatusBarTexture(.75, .75, .75)
+  PetFrameHealthBar:SetStatusBarTexture(.75, .75, .75)
+  PetFrameManaBar:SetStatusBarTexture(.75, .75, .75)
 end)
 
 hooksecurefunc('TargetFrame_CheckClassification', function(self)
-  self.healthbar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  --TargetFrameMyHealPredictionBar:SetTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  TargetFrameToTHealthBar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  TargetFrameToTManaBar:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
+  self.healthbar:SetStatusBarTexture(.75, .75, .75)
+  TargetFrameToTHealthBar:SetStatusBarTexture(.75, .75, .75)
+  TargetFrameToTManaBar:SetStatusBarTexture(.75, .75, .75)
 end)
 
 for i = 1, MAX_BOSS_FRAMES do
-  _G['Boss'..i..'TargetFrameHealthBar']:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
-  _G['Boss'..i..'TargetFrameManaBar']:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
+  _G['Boss'..i..'TargetFrameHealthBar']:SetStatusBarTexture(.75, .75, .75)
+  _G['Boss'..i..'TargetFrameManaBar']:SetStatusBarTexture(.75, .75, .75)
 end
 
 --------------------------------------------------------------------------------
@@ -76,7 +69,7 @@ end)
 hooksecurefunc('UnitFrameManaBar_UpdateType', function(self)
   local power = UnitPowerType(self.unit)
 
-  self:SetStatusBarTexture('Interface\\AddOns\\KlazUnitFrames\\Media\\UI-StatusBar')
+  self:SetStatusBarTexture(.75, .75, .75)
 
   -- change mana colour to lighter blue
   if power == 0 then
