@@ -7,12 +7,12 @@ CastingBarFrame:SetStatusBarColor(25/255, 148/255, 255/255)
 CastingBarFrame.SetStatusBarColor = function() end
 
 -- target
--- hooksecurefunc(TargetFrameSpellBar, 'Show', function()
--- 	TargetFrameSpellBar:ClearAllPoints()
--- 	TargetFrameSpellBar:SetPoint('CENTER', UIParent, 'CENTER', 0, 100)
--- 	TargetFrameSpellBar.SetPoint = function() end
---   TargetFrameSpellBar:SetScale(1.4)
--- end)
+hooksecurefunc(TargetFrameSpellBar, 'Show', function()
+  TargetFrameSpellBar:ClearAllPoints()
+  TargetFrameSpellBar:SetPoint('CENTER', UIParent, 'CENTER', 0, 100)
+  TargetFrameSpellBar.SetPoint = function() end
+  TargetFrameSpellBar:SetScale(1.4)
+end)
 
 --------------------------------------------------------------------------------
 -- TIMER
