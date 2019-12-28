@@ -3,7 +3,6 @@
 ## Author: Klaz
 ## Notes: Adjusts the appearance of the default Blizzard unit frames.
 
-Modules\CastBars.lua
 Modules\ClassHealth.lua
 Modules\ClassPortrait.lua
 Modules\Style.lua
