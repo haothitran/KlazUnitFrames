@@ -6,4 +6,5 @@
 Modules\CastBars.lua
 Modules\ClassHealth.lua
 Modules\ClassPortrait.lua
+Modules\Style.lua
 Modules\Unit.lua
