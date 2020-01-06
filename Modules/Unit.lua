@@ -83,7 +83,7 @@ end)
 
 -- boss frames position
 Boss1TargetFrame:ClearAllPoints()
-Boss1TargetFrame:SetPoint('TOPRIGHT', UIParent, 'TOPRIGHT', -250, -300)
+Boss1TargetFrame:SetPoint('TOPRIGHT', UIParent, 'TOPRIGHT', -300, -300)
 Boss1TargetFrame.SetPoint = function() end
 
 -- boss frames scale
