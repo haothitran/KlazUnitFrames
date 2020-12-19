@@ -69,7 +69,7 @@ end)
 hooksecurefunc('UnitFrameManaBar_UpdateType', function(self)
   local power = UnitPowerType(self.unit)
 
-  self:SetStatusBarTexture(.75, .75, .75)
+  -- self:SetStatusBarTexture(.75, .75, .75)
 
   -- change mana colour to lighter blue
   if power == 0 then
