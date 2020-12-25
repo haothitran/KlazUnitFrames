@@ -65,6 +65,25 @@ end)
 --------------------------------------------------------------------------------
 -- // POWER
 --------------------------------------------------------------------------------
+-- 0 = mana
+-- 1 = rage
+-- 2 = focus
+-- 3 = energy
+-- 4 = copy points
+-- 5 = runes
+-- 6 = runic power
+-- 7 = soul shards
+-- 8 = lunar power
+-- 9 = holy power
+-- 10 = alternate power
+-- 11 = maelstrom
+-- 12 = chi
+-- 13 = insanity
+-- 14 = ?
+-- 15 = ?
+-- 16 = arcane charges
+-- 17 = fury
+-- 18 = pain
 
 hooksecurefunc('UnitFrameManaBar_UpdateType', function(self)
   local power = UnitPowerType(self.unit)
