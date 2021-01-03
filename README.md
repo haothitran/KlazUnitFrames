@@ -9,8 +9,9 @@ There are no in-game options.
 - Hide various indicators on unit frames.
 - Class coloured health status bars.
 - Class portraits.
+- Darkens default border textures.
 - Flat textures for status bars.
-- Add timer for player and target cast bars.
+- Change colour for various power bars.
 - Increase scale of boss frames.
 
 ## Installation
