@@ -95,24 +95,3 @@ hooksecurefunc('UnitFrameManaBar_UpdateType', function(self)
     self:SetStatusBarColor(0, .5, 1)
   end
 end)
-
---------------------------------------------------------------------------------
--- // BOSS FRAMES
---------------------------------------------------------------------------------
-
--- boss frames position
-Boss1TargetFrame:ClearAllPoints()
-Boss1TargetFrame:SetPoint('TOPRIGHT', UIParent, 'TOPRIGHT', -300, -300)
-Boss1TargetFrame.SetPoint = function() end
-
--- boss frames scale
-for i = 1, MAX_BOSS_FRAMES do
-  local f = _G['Boss'..i..'TargetFrame']
-  f:SetParent(UIParent)
-  f:SetScale(1.1)
-end
-
--- reduce gap between boss frames
-for i = 2, MAX_BOSS_FRAMES do
-  _G['Boss'..i..'TargetFrame']:SetPoint('TOPLEFT', _G['Boss'..(i-1)..'TargetFrame'], 'BOTTOMLEFT', 0, 0)
-end
